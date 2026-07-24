@@ -1,0 +1,35 @@
+[
+  {
+    "id": "camry-2021",
+    "name": "Toyota Camry",
+    "year": 2021,
+    "category": "Sedan",
+    "transmission": "automatic",
+    "pricePerDay": 45,
+    "currency": "USD",
+    "image": "/cars/placeholder.svg",
+    "description": "Comfortable and fuel-efficient sedan, great for city trips and long drives."
+  },
+  {
+    "id": "rav4-2022",
+    "name": "Toyota RAV4",
+    "year": 2022,
+    "category": "SUV",
+    "transmission": "automatic",
+    "pricePerDay": 60,
+    "currency": "USD",
+    "image": "/cars/placeholder.svg",
+    "description": "Spacious SUV with plenty of trunk space, ideal for families and trips outside the city."
+  },
+  {
+    "id": "civic-2020",
+    "name": "Honda Civic",
+    "year": 2020,
+    "category": "Compact",
+    "transmission": "manual",
+    "pricePerDay": 35,
+    "currency": "USD",
+    "image": "/cars/placeholder.svg",
+    "description": "Reliable and economical compact car, easy to park and cheap on fuel."
+  }
+]

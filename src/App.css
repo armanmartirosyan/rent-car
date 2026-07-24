@@ -1,0 +1,158 @@
+.page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  box-sizing: border-box;
+}
+
+.page__header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.page__header p {
+  margin-top: 8px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.search-bar__input,
+.search-bar__select {
+  font: inherit;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.search-bar__input {
+  flex: 1 1 260px;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.car-grid__empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.car-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+
+.car-card__image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  background: var(--code-bg);
+}
+
+.car-card__body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.car-card__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.car-card__year {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.car-card__meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.car-card__tag {
+  font-size: 13px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  text-transform: capitalize;
+}
+
+.car-card__description {
+  font-size: 15px;
+  line-height: 145%;
+}
+
+.car-card__price {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.car-card__price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.contact-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.contact-btn {
+  text-align: center;
+  padding: 10px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  transition: filter 0.15s ease;
+}
+
+.contact-btn:hover {
+  filter: brightness(1.1);
+}
+
+.contact-btn--call {
+  background: #475569;
+}
+
+.contact-btn--whatsapp {
+  background: #25d366;
+}
+
+.contact-btn--telegram {
+  background: #229ed9;
+}
+
+.contact-btn--instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
