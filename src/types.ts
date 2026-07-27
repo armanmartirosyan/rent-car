@@ -6,7 +6,7 @@ export interface Car {
   transmission: 'automatic' | 'manual'
   pricePerDay: number
   currency: string
-  image: string
+  images: string[]
   description: string
 }
 

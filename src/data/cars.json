@@ -1,35 +1,78 @@
 [
   {
-    "id": "camry-2021",
-    "name": "Toyota Camry",
+    "id": "lexus-2021",
+    "name": "Lexus ES",
     "year": 2021,
     "category": "Sedan",
     "transmission": "automatic",
-    "pricePerDay": 45,
+    "pricePerDay": 60,
     "currency": "USD",
-    "image": "/cars/placeholder.svg",
+    "images": [
+      "/cars/Lexus_1.jpeg",
+      "/cars/Lexus_2.jpeg",
+      "/cars/Lexus_3.jpeg",
+      "/cars/Lexus_4.jpeg",
+      "/cars/Lexus_5.jpeg",
+      "/cars/Lexus_6.jpeg",
+      "/cars/Lexus_7.jpeg"
+    ],
     "description": "Comfortable and fuel-efficient sedan, great for city trips and long drives."
   },
   {
-    "id": "rav4-2022",
-    "name": "Toyota RAV4",
-    "year": 2022,
+    "id": "mazda-2021",
+    "name": "Mazda CX-5",
+    "year": 2021,
     "category": "SUV",
     "transmission": "automatic",
     "pricePerDay": 60,
     "currency": "USD",
-    "image": "/cars/placeholder.svg",
+    "images": [
+      "/cars/Mazda_1.jpeg",
+      "/cars/Mazda_2.jpeg",
+      "/cars/Mazda_3.jpeg",
+      "/cars/Mazda_4.jpeg",
+      "/cars/Mazda_5.jpeg",
+      "/cars/Mazda_6.jpeg",
+      "/cars/Mazda_7.jpeg"
+    ],
     "description": "Spacious SUV with plenty of trunk space, ideal for families and trips outside the city."
   },
   {
-    "id": "civic-2020",
-    "name": "Honda Civic",
-    "year": 2020,
-    "category": "Compact",
-    "transmission": "manual",
-    "pricePerDay": 35,
+    "id": "s-class-2021",
+    "name": "Mercedes S-Class",
+    "year": 2021,
+    "category": "Luxury",
+    "transmission": "automatic",
+    "pricePerDay": 200,
     "currency": "USD",
-    "image": "/cars/placeholder.svg",
-    "description": "Reliable and economical compact car, easy to park and cheap on fuel."
+    "images": [
+      "/cars/S-class_1.jpeg",
+      "/cars/S-class_2.jpeg",
+      "/cars/S-class_3.jpeg",
+      "/cars/S-class_4.jpeg",
+      "/cars/S-class_5.jpeg",
+      "/cars/S-class_6.jpeg",
+      "/cars/S-class_7.jpeg"
+    ],
+    "description": "Luxury sedan with top-notch features and comfort."
+  },
+  {
+    "id": "toyota-camry",
+    "name": "Toyota Camry",
+    "year": 2021,
+    "category": "Sedan",
+    "transmission": "automatic",
+    "pricePerDay": 60,
+    "currency": "USD",
+    "images": [
+      "/cars/Toyota-Camry_1.jpeg",
+      "/cars/Toyota-Camry_2.jpeg",
+      "/cars/Toyota-Camry_3.jpeg",
+      "/cars/Toyota-Camry_4.jpeg",
+      "/cars/Toyota-Camry_5.jpeg",
+      "/cars/Toyota-Camry_6.jpeg",
+      "/cars/Toyota-Camry_7.jpeg"
+    ],
+    "description": "Luxury sedan with top-notch features and comfort."
   }
 ]
